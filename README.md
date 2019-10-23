@@ -1,8 +1,16 @@
+# doc
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/rocdove/roc.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+
+## blueking
+
+[环境准备](blueking/环境准备.md)
+[install](blueking/install.md)
+[migration](blueking/migration)
 
 ### Markdown
 
