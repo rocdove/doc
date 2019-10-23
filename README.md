@@ -10,7 +10,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 * [环境准备](blueking/环境准备.md)
 * [install](blueking/install.md)
-* [migration](blueking/migration)
+* [migration](blueking/migration/index.md)
 
 ### Markdown
 
