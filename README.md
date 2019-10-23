@@ -8,9 +8,9 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 ## blueking
 
-[环境准备](blueking/环境准备.md)
-[install](blueking/install.md)
-[migration](blueking/migration)
+* [环境准备](blueking/环境准备.md)
+* [install](blueking/install.md)
+* [migration](blueking/migration)
 
 ### Markdown
 

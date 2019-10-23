@@ -15,37 +15,42 @@
 
 ### 配置 globals.env
 
-   域名
-   密码
-   HTTP_SCHEMA
-   PYPI_SOURCE=''
+* 域名
+* 密码
+* HTTP_SCHEMA
+* PYPI_SOURCE='mirrors.cloud.tencent.com'
+* PYPI_SOURCE='mirrors.tencentyun.com'
 
 ### 配置 pip 源
 
-    # 公网访问
-    cat <<EOF > /data/src/.pip/pip.conf
-    [global]
-    index-url = http://mirrors.cloud.tencent.com/pypi/simple
-    trusted-host = mirrors.cloud.tencent.com
-    EOF
+```markdown
+# 公网访问
+cat <<EOF > /data/src/.pip/pip.conf
+[global]
+index-url = http://mirrors.cloud.tencent.com/pypi/simple
+trusted-host = mirrors.cloud.tencent.com
+EOF
 
-    # 腾讯内部访问
-    cat <<EOF > /data/src/.pip/pip.conf
-    [global]
-    index-url = http://mirrors.tencentyun.com/pypi/simple
-    trusted-host = mirrors.tencentyun.com
-    EOF
+# 腾讯内部访问
+cat <<EOF > /data/src/.pip/pip.conf
+[global]
+index-url = http://mirrors.tencentyun.com/pypi/simple
+trusted-host = mirrors.tencentyun.com
+EOF
+```
 
 ### 安装命令
 
-    ./configure_ssh_without_pass
-    ./precheck.sh -r
+```markdown
+./configure_ssh_without_pass
+./precheck.sh -r
 
-    ./bk_install paas
-    ./bk_install cmdb
-    ./bk_install job
-    ./bk_install app_mgr
-    ./bk_install bkdata
-    ./bk_install fta
-    ./bkcec install gse_agent
-    ./bkcec install saas-o
+./bk_install paas
+./bk_install cmdb
+./bk_install job
+./bk_install app_mgr
+./bk_install bkdata
+./bk_install fta
+./bkcec install gse_agent
+./bkcec install saas-o
+```
